@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/exam-textgit/exam-textgit.iml" filepath="$PROJECT_DIR$/exam-textgit/exam-textgit.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/examonline.iml" filepath="$PROJECT_DIR$/.idea/examonline.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-boostrap/test-boostrap.iml" filepath="$PROJECT_DIR$/test-boostrap/test-boostrap.iml" />
     </modules>
   </component>
 </project>
