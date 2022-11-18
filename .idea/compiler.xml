@@ -23,10 +23,9 @@
       <module name="exam-config" target="8" />
       <module name="exam-dao" target="8" />
       <module name="exam-domain" target="8" />
-      <module name="exam-parent" target="8" />
+      <module name="exam-parent" target="1.8" />
       <module name="exam-service" target="8" />
       <module name="exam-test" target="8" />
-      <module name="exam-web-student" target="8" />
       <module name="exam-web-studnet" target="8" />
       <module name="exam-web-teacher" target="8" />
       <module name="test-thymeleaf" target="8" />
