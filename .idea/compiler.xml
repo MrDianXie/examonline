@@ -6,10 +6,29 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="exam-parent" />
+        <module name="exam-domain" />
+        <module name="exam-common" />
+        <module name="exam-web-studnet" />
         <module name="test-thymeleaf" />
+        <module name="exam-test" />
+        <module name="exam-dao" />
+        <module name="exam-config" />
+        <module name="exam-web-teacher" />
+        <module name="exam-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="exam-common" target="8" />
+      <module name="exam-config" target="8" />
+      <module name="exam-dao" target="8" />
+      <module name="exam-domain" target="8" />
+      <module name="exam-parent" target="8" />
+      <module name="exam-service" target="8" />
+      <module name="exam-test" target="8" />
+      <module name="exam-web-student" target="8" />
+      <module name="exam-web-studnet" target="8" />
+      <module name="exam-web-teacher" target="8" />
       <module name="test-thymeleaf" target="8" />
     </bytecodeTargetLevel>
   </component>

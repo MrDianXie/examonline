@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/exam-service" />
+    <file type="web" url="file://$PROJECT_DIR$/exam-web-studnet" />
+    <file type="web" url="file://$PROJECT_DIR$/exam-web-teacher" />
     <file type="web" url="file://$PROJECT_DIR$/test-thymeleaf" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/test-thymeleaf/pom.xml" />
+        <option value="$PROJECT_DIR$/exam-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/exam-config/pom.xml" />
+        <option value="$PROJECT_DIR$/exam-domain/pom.xml" />
+        <option value="$PROJECT_DIR$/exam-test/pom.xml" />
+        <option value="$PROJECT_DIR$/exam-common/pom.xml" />
+        <option value="$PROJECT_DIR$/exam-dao/pom.xml" />
+        <option value="$PROJECT_DIR$/exam-web-teacher/pom.xml" />
+        <option value="$PROJECT_DIR$/exam-web-studnet/pom.xml" />
+        <option value="$PROJECT_DIR$/exam-service/pom.xml" />
       </list>
     </option>
   </component>

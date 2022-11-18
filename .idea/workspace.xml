@@ -10,9 +10,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5972b408-3ebc-4723-8873-4075b7453b88" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/exam-textgit/exam-textgit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/exam-testgit/exam-testgit.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exam-textgit/src/com/xjh/text/TestMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/exam-testgit/src/com/xjh/text/TestMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exam-textgit/src/com/xjh/text/Text.java" beforeDir="false" afterPath="$PROJECT_DIR$/exam-testgit/src/com/xjh/text/Text.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam-config/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam-dao/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam-domain/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam-parent/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam-test/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam-web-studnet/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam-web-studnet/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam-web-teacher/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam-web-teacher/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +66,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/test-thymeleaf/src/main/webapp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/exam-web-studnet/src/main/webapp" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -70,6 +78,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\BC\JAVA\SourceCode\Project\在线考试系统项目\examonline\exam-web-studnet\src\main" />
       <recent name="D:\BC\JAVA\SourceCode\Project\在线考试系统项目\examonline\test-thymeleaf\src\main" />
     </key>
   </component>
@@ -187,7 +196,7 @@
       <workItem from="1667901778659" duration="77000" />
       <workItem from="1668611346610" duration="1475000" />
       <workItem from="1668612959692" duration="1569000" />
-      <workItem from="1668737538024" duration="3243000" />
+      <workItem from="1668737538024" duration="6357000" />
     </task>
     <task id="LOCAL-00001" summary="ssmText">
       <created>1667641614767</created>
@@ -245,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668745770239</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="测试github">
+      <created>1668745960140</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1668745960140</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,6 +274,7 @@
     <MESSAGE value="第3次提交" />
     <MESSAGE value="测试前端框架boostrap" />
     <MESSAGE value="测试前端框架Thymeleaf" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试前端框架Thymeleaf" />
+    <MESSAGE value="测试github" />
+    <option name="LAST_COMMIT_MESSAGE" value="测试github" />
   </component>
 </project>

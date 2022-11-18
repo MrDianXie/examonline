@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/exam-common/exam-common.iml" filepath="$PROJECT_DIR$/exam-common/exam-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exam-config/exam-config.iml" filepath="$PROJECT_DIR$/exam-config/exam-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exam-dao/exam-dao.iml" filepath="$PROJECT_DIR$/exam-dao/exam-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exam-domain/exam-domain.iml" filepath="$PROJECT_DIR$/exam-domain/exam-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exam-parent/exam-parent.iml" filepath="$PROJECT_DIR$/exam-parent/exam-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exam-service/exam-service.iml" filepath="$PROJECT_DIR$/exam-service/exam-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exam-test/exam-test.iml" filepath="$PROJECT_DIR$/exam-test/exam-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/exam-testgit/exam-testgit.iml" filepath="$PROJECT_DIR$/exam-testgit/exam-testgit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exam-web-studnet/exam-web-studnet.iml" filepath="$PROJECT_DIR$/exam-web-studnet/exam-web-studnet.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exam-web-teacher/exam-web-teacher.iml" filepath="$PROJECT_DIR$/exam-web-teacher/exam-web-teacher.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/examonline.iml" filepath="$PROJECT_DIR$/.idea/examonline.iml" />
       <module fileurl="file://$PROJECT_DIR$/test-boostrap/test-boostrap.iml" filepath="$PROJECT_DIR$/test-boostrap/test-boostrap.iml" />
       <module fileurl="file://$PROJECT_DIR$/test-thymeleaf/test-thymeleaf.iml" filepath="$PROJECT_DIR$/test-thymeleaf/test-thymeleaf.iml" />
