@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/exam-textgit/exam-textgit.iml" filepath="$PROJECT_DIR$/exam-textgit/exam-textgit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exam-testgit/exam-testgit.iml" filepath="$PROJECT_DIR$/exam-testgit/exam-testgit.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/examonline.iml" filepath="$PROJECT_DIR$/.idea/examonline.iml" />
       <module fileurl="file://$PROJECT_DIR$/test-boostrap/test-boostrap.iml" filepath="$PROJECT_DIR$/test-boostrap/test-boostrap.iml" />
       <module fileurl="file://$PROJECT_DIR$/test-thymeleaf/test-thymeleaf.iml" filepath="$PROJECT_DIR$/test-thymeleaf/test-thymeleaf.iml" />
