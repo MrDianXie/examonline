@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context" xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd http://www.springframework.org/schema/aop https://www.springframework.org/schema/aop/spring-aop.xsd">
+
+
+    <context:component-scan base-package="com.xjh.examonline" />
+    <context:property-placeholder location="classpath:db.properties" />
+
+    <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
+        <property name="driverClassName" value="${mysql.driver}" />
+        <property name="url" value="${mysql.url}" />
+        <property name="username" value="${mysql.username}" />
+        <property name="password" value="${mysql.password}" />
+
+        <property name="initialSize" value="${druid.initialSize}" />
+        <property name="maxActive" value="${druid.maxActive}" />
+        <property name="minIdle" value="${druid.minIdle}" />
+        <property name="maxWait" value="${druid.maxWait}" />
+    </bean>
+    
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean" >
+        <property name="dataSource" ref="dataSource" />
+        <property name="mapperLocations" value="classpath:mappers/*.xml" />
+        <property name="typeAliasesPackage" value="com.xjh.examonline.domain" />
+        <property name="configLocation" value="classpath:mybatis.xml" />
+    </bean>
+
+    <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory" />
+        <property name="basePackage" value="com.xjh.examonline.dao" />
+    </bean>
+
+    <bean id="manager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager" >
+        <property name="dataSource" ref="dataSource" />
+    </bean>
+
+    <tx:advice id="txAdvice" transaction-manager="manager" >
+        <tx:attributes>
+            <tx:method name="find*" read-only="true"/>
+            <tx:method name="get*" read-only="true"/>
+            <tx:method name="load*" read-only="true"/>
+            <tx:method name="select*" read-only="true"/>
+            <tx:method name="*" isolation="READ_COMMITTED" propagation="REQUIRED" rollback-for="java.lang.Throwable"/>
+        </tx:attributes>
+    </tx:advice>
+
+    <aop:config>
+        <aop:pointcut id="examCut" expression="execution(* com.xjh.examonline.service.*.*(..))"/>
+        <aop:advisor advice-ref="txAdvice" pointcut-ref="examCut" />
+    </aop:config>
+</beans>
