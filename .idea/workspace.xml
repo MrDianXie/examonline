@@ -9,86 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5972b408-3ebc-4723-8873-4075b7453b88" name="Default Changelist" comment="parent项目pom文件配置">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/exam_config_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/exam_config_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_2_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_13_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_13_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_13_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_4_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_protobuf_protobuf_java_3_11_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_42.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_22.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_27.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ognl_ognl_3_1_262.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_62.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_generator_mybatis_generator_core_1_4_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_72.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_252.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_3_142.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_3_142.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_3_142.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_3_142.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_3_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_3_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_3_142.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_3_233.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_12_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_12_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exam-config/src/main/java/com/xjh/examonline/stat/GeneratorStarter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exam-config/src/main/resources/db.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exam-config/src/main/resources/mappers/DictionaryMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exam-config/src/main/resources/mappers/ExamMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exam-config/src/main/resources/mappers/QuestionMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exam-config/src/main/resources/mappers/StudentExamMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exam-config/src/main/resources/mappers/StudentMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exam-config/src/main/resources/mappers/TeacherMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exam-config/src/main/resources/mappers/TemplateMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exam-config/src/main/resources/message_en_US.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exam-config/src/main/resources/message_zh_CN.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exam-config/src/main/resources/mvc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exam-config/src/main/resources/mybatis-generator-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exam-config/src/main/resources/mybatis.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exam-config/src/main/resources/spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exam-dao/src/main/java/com/xjh/examonline/dao/DictionaryMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exam-dao/src/main/java/com/xjh/examonline/dao/ExamMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exam-dao/src/main/java/com/xjh/examonline/dao/QuestionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exam-dao/src/main/java/com/xjh/examonline/dao/StudentExamMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exam-dao/src/main/java/com/xjh/examonline/dao/StudentMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exam-dao/src/main/java/com/xjh/examonline/dao/TeacherMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exam-dao/src/main/java/com/xjh/examonline/dao/TemplateMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exam-domain/src/main/java/com/xjh/examonline/domain/Dictionary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exam-domain/src/main/java/com/xjh/examonline/domain/Exam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exam-domain/src/main/java/com/xjh/examonline/domain/Question.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exam-domain/src/main/java/com/xjh/examonline/domain/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exam-domain/src/main/java/com/xjh/examonline/domain/StudentExam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exam-domain/src/main/java/com/xjh/examonline/domain/Teacher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exam-domain/src/main/java/com/xjh/examonline/domain/Template.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/exam_web_teacher_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/exam_web_teacher_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_3_14.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_3_142.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exam-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/exam-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exam-config/exam-config.iml" beforeDir="false" afterPath="$PROJECT_DIR$/exam-config/exam-config.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exam-config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/exam-config/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exam-dao/exam-dao.iml" beforeDir="false" afterPath="$PROJECT_DIR$/exam-dao/exam-dao.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exam-dao/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/exam-dao/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exam-domain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/exam-domain/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exam-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/exam-parent/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exam-service/exam-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/exam-service/exam-service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exam-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/exam-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exam-test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/exam-test/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exam-web-studnet/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/exam-web-studnet/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exam-web-teacher/exam-web-teacher.iml" beforeDir="false" afterPath="$PROJECT_DIR$/exam-web-teacher/exam-web-teacher.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exam-web-teacher/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/exam-web-teacher/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exam-web-teacher/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/exam-web-teacher/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5972b408-3ebc-4723-8873-4075b7453b88" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -287,7 +208,7 @@
       <workItem from="1668612959692" duration="1569000" />
       <workItem from="1668737538024" duration="6642000" />
       <workItem from="1668781938739" duration="6457000" />
-      <workItem from="1668844047330" duration="16515000" />
+      <workItem from="1668844047330" duration="16886000" />
     </task>
     <task id="LOCAL-00001" summary="ssmText">
       <created>1667641614767</created>
@@ -373,7 +294,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668786759864</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="项目依赖管理搭建">
+      <created>1668861966886</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1668861966886</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -389,6 +317,7 @@
     <MESSAGE value="测试github" />
     <MESSAGE value="项目结构搭建" />
     <MESSAGE value="parent项目pom文件配置" />
-    <option name="LAST_COMMIT_MESSAGE" value="parent项目pom文件配置" />
+    <MESSAGE value="项目依赖管理搭建" />
+    <option name="LAST_COMMIT_MESSAGE" value="项目依赖管理搭建" />
   </component>
 </project>
