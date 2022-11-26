@@ -2,25 +2,106 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="test-thymeleaf:war exploded" />
+      <artifact name="exam-web-teacher:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5972b408-3ebc-4723-8873-4075b7453b88" name="Default Changelist" comment="" />
+    <list default="true" id="5972b408-3ebc-4723-8873-4075b7453b88" name="Default Changelist" comment="项目依赖管理搭建">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cn_hutool_hutool_all_5_7_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_belerweb_pinyin4j_2_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_jcl_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_slf4j_impl_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_web_2_11_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_3_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam-common/src/main/java/com/xjh/examonline/common/Interceptors/LoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam-config/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam-config/target/classes/com/xjh/examonline/stat/GeneratorStarter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam-config/target/classes/db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam-config/target/classes/mybatis-generator-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam-service/src/main/java/com/xjh/examonline/service/TeacherService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam-service/src/main/java/com/xjh/examonline/service/impl/TeacherServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam-test/src/test/java/com/xjh/examonline/test/Test1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam-web-teacher/src/main/java/com/xjh/examonline/controller/CommonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam-web-teacher/src/main/webapp/WEB-INF/view/common.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam-web-teacher/src/main/webapp/WEB-INF/view/common/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam-web-teacher/src/main/webapp/WEB-INF/view/common/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam-web-teacher/src/main/webapp/WEB-INF/view/common/timeout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam-web-teacher/src/main/webapp/WEB-INF/view/common/updatePwdTemplate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam-web-teacher/src/main/webapp/WEB-INF/view/student/student.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam-web-teacher/src/main/webapp/WEB-INF/view/teacher/teacher.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam-web-teacher/src/main/webapp/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam-web-teacher/src/main/webapp/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam-web-teacher/src/main/webapp/js/jquery-3.6.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam-web-teacher/src/main/webapp/js/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exam-web-teacher/src/main/webapp/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/exam_config_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/exam_config_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/exam_service_war_exploded2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/exam_service_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/exam_service_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/exam_service_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/exam_web_studnet_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/exam_web_studnet_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/exam_web_teacher_war.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/exam_web_teacher_war.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/exam_web_teacher_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/exam_web_teacher_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/test_thymeleaf_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/test_thymeleaf_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam-common/exam-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/exam-common/exam-common.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/exam-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam-config/exam-config.iml" beforeDir="false" afterPath="$PROJECT_DIR$/exam-config/exam-config.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam-config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/exam-config/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam-config/src/main/resources/mappers/DictionaryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/exam-config/src/main/resources/mappers/DictionaryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam-config/src/main/resources/mappers/ExamMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/exam-config/src/main/resources/mappers/ExamMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam-config/src/main/resources/mappers/QuestionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/exam-config/src/main/resources/mappers/QuestionMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam-config/src/main/resources/mappers/StudentExamMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/exam-config/src/main/resources/mappers/StudentExamMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam-config/src/main/resources/mappers/StudentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/exam-config/src/main/resources/mappers/StudentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam-config/src/main/resources/mappers/TeacherMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/exam-config/src/main/resources/mappers/TeacherMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam-config/src/main/resources/mappers/TemplateMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/exam-config/src/main/resources/mappers/TemplateMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam-config/src/main/resources/message_en_US.properties" beforeDir="false" afterPath="$PROJECT_DIR$/exam-config/src/main/resources/message_en_US.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam-config/src/main/resources/message_zh_CN.properties" beforeDir="false" afterPath="$PROJECT_DIR$/exam-config/src/main/resources/message_zh_CN.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam-config/src/main/resources/mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/exam-config/src/main/resources/mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam-config/src/main/resources/mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/exam-config/src/main/resources/mybatis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam-dao/exam-dao.iml" beforeDir="false" afterPath="$PROJECT_DIR$/exam-dao/exam-dao.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam-dao/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/exam-dao/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam-dao/src/main/java/com/xjh/examonline/dao/TeacherMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/exam-dao/src/main/java/com/xjh/examonline/dao/TeacherMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam-service/exam-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/exam-service/exam-service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/exam-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam-test/exam-test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/exam-test/exam-test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam-test/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/exam-test/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam-web-studnet/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/exam-web-studnet/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam-web-teacher/exam-web-teacher.iml" beforeDir="false" afterPath="$PROJECT_DIR$/exam-web-teacher/exam-web-teacher.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam-web-teacher/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/exam-web-teacher/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exam-web-teacher/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/exam-web-teacher/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-thymeleaf/test-thymeleaf.iml" beforeDir="false" afterPath="$PROJECT_DIR$/test-thymeleaf/test-thymeleaf.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="spring-beans.schema" />
+        <option value="Tag Library Descriptor" />
+        <option value="Interface" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
         <option value="Class" />
         <option value="HTML File" />
-        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -42,6 +123,9 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
   <component name="ProjectId" id="2H7fqrBzmtgfCqWZhqlCAA4ai6p" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -54,27 +138,34 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/exam-config/src/main/java/com/xjh/examonline/stat" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/exam-web-teacher/target/exam-web-teacher-1.0-SNAPSHOT/bootstrap" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.252149" />
-    <property name="project.structure.side.proportion" value="0.53586495" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="project.structure.last.edited" value="库" />
+    <property name="project.structure.proportion" value="0.14555556" />
+    <property name="project.structure.side.proportion" value="0.21609539" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\BC\JAVA\SourceCode\Project\在线考试系统项目\examonline\exam-config\src\main\java\com\xjh\examonline\stat" />
-      <recent name="D:\BC\JAVA\SourceCode\Project\在线考试系统项目\examonline\exam-config\src\main\resources" />
+      <recent name="C:\Users\301\Desktop\在线考试系统项目\examonline\exam-web-teacher\target\exam-web-teacher-1.0-SNAPSHOT\bootstrap" />
+      <recent name="C:\Users\301\Desktop\在线考试系统项目\examonline\exam-web-teacher\target\exam-web-teacher-1.0-SNAPSHOT" />
+      <recent name="C:\Users\301\Desktop\在线考试系统项目\examonline\exam-web-teacher\src\main\webapp\bootstrap" />
+      <recent name="C:\Users\301\Desktop\在线考试系统项目\examonline\exam-web-teacher\src\main\webapp\css\bootstrap\js" />
+      <recent name="C:\Users\301\Desktop\在线考试系统项目\examonline\exam-web-teacher\src\main\webapp\js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\301\Desktop\在线考试系统项目\examonline\exam-web-teacher\src\main\webapp" />
+      <recent name="C:\Users\301\Desktop\在线考试系统项目\examonline\exam-web-teacher\src\main\webapp\css\bootstrap" />
+      <recent name="D:\BC\JAVA\SourceCode\Project\在线考试系统项目\examonline\exam-web-teacher\src\main\webapp\WEB-INF\view" />
+      <recent name="D:\BC\JAVA\SourceCode\Project\在线考试系统项目\examonline\exam-web-teacher\src\main\webapp\WEB-INF\view\common" />
       <recent name="D:\BC\JAVA\SourceCode\Project\在线考试系统项目\examonline\exam-web-studnet\src\main" />
-      <recent name="D:\BC\JAVA\SourceCode\Project\在线考试系统项目\examonline\test-thymeleaf\src\main" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GeneratorStarter">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.75">
     <configuration name="GeneratorStarter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xjh.examonline.stat.GeneratorStarter" />
       <module name="exam-config" />
@@ -88,13 +179,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
+    <configuration name="Test1" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="exam-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xjh.examonline.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xjh.examonline.test" />
+      <option name="MAIN_CLASS_NAME" value="com.xjh.examonline.test.Test1" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test1.testOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="exam-test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xjh.examonline.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.xjh.examonline.test" />
+      <option name="MAIN_CLASS_NAME" value="com.xjh.examonline.test.Test1" />
+      <option name="METHOD_NAME" value="testOne" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -104,9 +215,9 @@
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
-        <artifact name="test-thymeleaf:war exploded">
+        <artifact name="exam-web-teacher:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/test_thymeleaf" />
+            <option name="CONTEXT_PATH" value="/exam_techer" />
           </settings>
         </artifact>
       </deployment>
@@ -183,14 +294,18 @@
       </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="test-thymeleaf:war exploded" />
-        </option>
+        <option name="BuildArtifacts" enabled="false" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.GeneratorStarter" />
+      <item itemvalue="JUnit.Test1" />
+      <item itemvalue="JUnit.Test1.testOne" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.75" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GeneratorStarter" />
+        <item itemvalue="JUnit.Test1.testOne" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +323,19 @@
       <workItem from="1668612959692" duration="1569000" />
       <workItem from="1668737538024" duration="6642000" />
       <workItem from="1668781938739" duration="6457000" />
-      <workItem from="1668844047330" duration="16886000" />
+      <workItem from="1668844047330" duration="17069000" />
+      <workItem from="1668869906419" duration="9530000" />
+      <workItem from="1668921857134" duration="8889000" />
+      <workItem from="1668930921041" duration="8086000" />
+      <workItem from="1668942255223" duration="1449000" />
+      <workItem from="1669028333017" duration="681000" />
+      <workItem from="1669037535809" duration="9442000" />
+      <workItem from="1669273128814" duration="8127000" />
+      <workItem from="1669353628603" duration="616000" />
+      <workItem from="1669354655262" duration="1303000" />
+      <workItem from="1669358331555" duration="53000" />
+      <workItem from="1669358456025" duration="5846000" />
+      <workItem from="1669440207084" duration="18000" />
     </task>
     <task id="LOCAL-00001" summary="ssmText">
       <created>1667641614767</created>
@@ -301,7 +428,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668861966886</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="项目依赖管理搭建">
+      <created>1668862145253</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1668862145253</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

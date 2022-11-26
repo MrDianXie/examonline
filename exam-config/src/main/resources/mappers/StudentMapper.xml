@@ -21,7 +21,7 @@
     id, code, sname, mnemonic_code, pass, grade, major, class_no, yl1, yl2, yl3, yl4, 
     create_time, update_time
   </sql>
-  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="StudentResultMap">
     select 
     <include refid="Base_Column_List" />
     from t_student

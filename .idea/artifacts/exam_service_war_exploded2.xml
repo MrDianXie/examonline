@@ -1,17 +1,10 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="exam-config:war exploded">
-    <output-path>$PROJECT_DIR$/exam-config/target/exam-config-1.0-SNAPSHOT</output-path>
-    <properties id="maven-jee-properties">
-      <options>
-        <exploded>true</exploded>
-        <module>exam-config</module>
-        <packaging>war</packaging>
-      </options>
-    </properties>
+  <artifact type="exploded-war" name="exam-service:war exploded2">
+    <output-path>$PROJECT_DIR$/out/artifacts/exam_service_war_exploded2</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="exam-config" />
+          <element id="module-output" name="exam-service" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: org.springframework:spring-context:5.3.14" />
@@ -44,12 +37,17 @@
           <element id="library" level="project" name="Maven: com.github.pagehelper:pagehelper:5.3.0" />
           <element id="library" level="project" name="Maven: com.github.jsqlparser:jsqlparser:4.2" />
           <element id="library" level="project" name="Maven: org.mybatis.generator:mybatis-generator-core:1.4.0" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-slf4j-impl:2.11.1" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-api:2.11.1" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-core:2.11.1" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-web:2.11.1" />
+          <element id="library" level="project" name="Maven: org.apache.logging.log4j:log4j-jcl:2.11.1" />
+          <element id="library" level="project" name="Maven: commons-logging:commons-logging:1.2" />
+          <element id="library" level="project" name="Maven: cn.hutool:hutool-all:5.7.16" />
+          <element id="library" level="project" name="Maven: com.belerweb:pinyin4j:2.5.1" />
         </element>
       </element>
-      <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/exam-config/target/exam-config-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
-      </element>
-      <element id="javaee-facet-resources" facet="exam-config/web/Web" />
+      <element id="javaee-facet-resources" facet="exam-service/web/Web" />
     </root>
   </artifact>
 </component>

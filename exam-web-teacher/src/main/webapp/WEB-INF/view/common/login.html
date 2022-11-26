@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <base th:href="@{/}">
+    <th:block th:include="common::link" />
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <script type="text/javascript" src="js/login.js"></script>
+    <title>408在线考试系统-教师端</title>
+</head>
+<body>
+    <div class="login-box">
+        <form>
+            <div class="form-group">
+                <h2>[[#{login_label}]]</h2>
+                <div id="msg"></div>
+            </div>
+            <label for="tname" th:text="#{username_label}"></label>
+            <div class="form-group">
+                <div class="input-group">
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-user"></span>
+                    </span>
+                    <input type="text" class="form-control" name="tname" id="tname" th:placeholder="#{user_placeholder_label}">
+                </div>
+            </div>
+            <label for="tpass">[[#{password_label}]]</label>
+                <div class="input-group">
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-lock"></span>
+                    </span>
+                    <input type="password" class="form-control" name="tpass" id="tpass" th:placeholder="#{pass_placeholder_label}">
+                </div>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox"> <span>[[#{remember_label}]]</span>
+                </label>
+            </div>
+            <div class="form-group">
+                <button onclick="login.toLogin()" type="button" class="btn btn-info btn-block">[[#{login_btn_label}]]</button>
+            </div>
+        </form>
+
+        <footer>
+            <a href="common/login.html?lang=en_US">[[#{language_enUS_label}]]</a>
+            <a href="common/login.html?lang=zh_CN">[[#{language_zhCN_label}]]</a>
+        </footer>
+    </div>
+</body>
+</html>

@@ -29,7 +29,7 @@
     answer3, answer4, answer5, review4, review5, score, page_path, yl1, yl2, yl3, yl4, 
     create_time, update_time
   </sql>
-  <select id="selectByPrimaryKey" parameterType="map" resultMap="BaseResultMap">
+  <select id="selectByPrimaryKey" parameterType="map" resultMap="StudentExamResultMap">
     select 
     <include refid="Base_Column_List" />
     from t_student_exam

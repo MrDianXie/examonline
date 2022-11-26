@@ -19,7 +19,7 @@
     <!-- thymeleaf相关的配置 -->
     <bean id="templateResolver"
           class="org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver">
-        <property name="prefix" value="/WEB-INF/"/>
+        <property name="prefix" value="/WEB-INF/view/"/>
         <property name="suffix" value=".html"/>
         <property name="characterEncoding" value="UTF-8"/>
         <property name="order" value="1"/>
@@ -44,7 +44,7 @@
     <!-- 配置国际化 -->
     <bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource">
         <property name="defaultEncoding" value="UTF-8" />
-        <property name="basename" value="classpath:message" />
+        <property name="basename" value="message" />
         <property name="useCodeAsDefaultMessage" value="true" />
     </bean>
 
@@ -53,10 +53,26 @@
         <bean id="localeChangeInterceptor" class="org.springframework.web.servlet.i18n.LocaleChangeInterceptor">
             <property name="paramName" value="lang"/>
         </bean>
+
+        <mvc:interceptor>
+            <mvc:mapping path="/**"/>
+            <mvc:exclude-mapping path="/"/>
+            <mvc:exclude-mapping path="/common/login.html"/>
+            <mvc:exclude-mapping path="/common/login"/>
+            <mvc:exclude-mapping path="/common/exit"/>
+            <mvc:exclude-mapping path="/common/timeout.html"/>
+            <mvc:exclude-mapping path="/js/**"/>
+            <mvc:exclude-mapping path="/css/**"/>
+            <mvc:exclude-mapping path="/images/**"/>
+            <mvc:exclude-mapping path="/bootstrap/**"/>
+            <bean id="loginInterceptor" class="com.xjh.examonline.common.Interceptors.LoginInterceptor" />
+        </mvc:interceptor>
     </mvc:interceptors>
 
     <!-- 配置国际化语言环境的存储对象 -->
     <bean id="localeResolver" class="org.springframework.web.servlet.i18n.SessionLocaleResolver">
-        <property name="defaultLocale" value="en_US" />
+        <property name="defaultLocale" value="zh_CN" />
     </bean>
+
+
 </beans>

@@ -9,7 +9,7 @@
   <sql id="Base_Column_List">
     id, name, type
   </sql>
-  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="DictionaryResultMap">
     select 
     <include refid="Base_Column_List" />
     from t_dictionary

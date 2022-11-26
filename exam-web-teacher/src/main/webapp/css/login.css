@@ -1,0 +1,28 @@
+html{
+    height: 100%;
+}
+
+body{
+    background-image: linear-gradient(#1e90ff 0%,#ffc0ce 100%);
+}
+
+.login-box{
+    width: 400px;
+    margin: 100px auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px 20px 30px 20px;
+    box-shadow: 10px 10px 5px #ccc;
+    background: #eee;
+    opacity: 95%;
+}
+
+.login-box .form-group{
+    text-align: center;
+}
+
+.form-group #msg{
+    height: 10px;
+    line-height: 10px;
+    color:red;
+}

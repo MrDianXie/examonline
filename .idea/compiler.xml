@@ -25,7 +25,7 @@
       <module name="exam-parent" target="1.8" />
       <module name="exam-service" target="1.8" />
       <module name="exam-test" target="1.8" />
-      <module name="exam-web-studnet" target="8" />
+      <module name="exam-web-studnet" target="1.8" />
       <module name="exam-web-teacher" target="1.8" />
       <module name="test-thymeleaf" target="8" />
     </bytecodeTargetLevel>

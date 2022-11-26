@@ -24,7 +24,7 @@
     id, name, type, question1, question2, question3, question4, question5, total_score, 
     status, tid, yl1, yl2, yl3, yl4, create_time, update_time
   </sql>
-  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="TemplateResultMap">
     select 
     <include refid="Base_Column_List" />
     from t_template

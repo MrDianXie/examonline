@@ -22,7 +22,7 @@
     id, type, course, level, subject, options, answer, status, tid, yl1, yl2, yl3, yl4, 
     create_time, update_time
   </sql>
-  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="QuestionResultMap">
     select 
     <include refid="Base_Column_List" />
     from t_question

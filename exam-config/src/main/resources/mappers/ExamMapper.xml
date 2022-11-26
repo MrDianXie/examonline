@@ -22,7 +22,7 @@
     id, name, course, template_id, tid, start_time, end_time, duration, status, yl1, 
     yl2, yl3, yl4, create_time, update_time
   </sql>
-  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="ExamResultMap">
     select 
     <include refid="Base_Column_List" />
     from t_exam

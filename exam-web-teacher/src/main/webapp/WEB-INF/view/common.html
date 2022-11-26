@@ -1,0 +1,81 @@
+<html>
+  <div th:fragment="link">
+    <!--  引入jq  -->
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <!-- 引入boostrap（css框架） -->
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <script src="js/main.js"></script>
+  </div>
+
+  <div th:fragment="header" class="header-box">
+    <div class="logo-box">
+      <span>408在线考试系统</span>
+    </div>
+    <div class="welcome-box">
+      <span>欢迎</span>
+      <div class="btn-group">
+        <button type="button" class="btn btn-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          [[${session.loginTeacher.tname}]]<span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+          <li><a href="javascript:void(0)">
+            <span class="glyphicon glyphicon-user"></span>个人信息
+          </a></li>
+          <li><a href="javascript:void(0)" onclick="main.toUpdatePwd()">
+            <span class="glyphicon glyphicon-lock"></span>修改密码
+          </a></li>
+          <li><a href="javascript:void(0)" onclick="main.exit()">
+            <span class="glyphicon glyphicon-off"></span>退出系统
+          </a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- 模态框 -->
+    <div class="modal fade" id="myModal" tabindex="-1" >
+      <div class="modal-dialog" >
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" ><span>&times;</span></button>
+            <h4 class="modal-title" id="modal-title">修改密码</h4>
+          </div>
+          <div class="modal-body" id="modal-body">
+            ...
+          </div>
+          <div class="modal-footer" id="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+            <button type="button" class="btn btn-primary" onclick="main.updatePwd()">提交</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div th:fragment="nav">
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#">教师管理</a></li>
+        <li><a href="#">学生管理</a></li>
+        <li><a href="#">试题管理</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">模板管理 <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">新建模板</a></li>
+            <li><a href="#">模板列表</a></li>
+          </ul>
+        </li>
+        <li><a href="#">考试管理</a></li>
+      </ul>
+    </div>
+  </div>
+
+
+  <div th:fragment="footer" class="footer-box">
+    ️&copy;2022 东区18-B栋408有限公司
+  </div>
+</html>

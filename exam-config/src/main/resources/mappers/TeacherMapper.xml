@@ -16,7 +16,7 @@
   <sql id="Base_Column_List">
     id, tname, mnemonic_code, pass, yl1, yl2, yl3, yl4, create_time, update_time
   </sql>
-  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="TeacherResultMap">
     select 
     <include refid="Base_Column_List" />
     from t_teacher
@@ -33,7 +33,7 @@
       )
     values (#{id,jdbcType=BIGINT}, #{tname,jdbcType=VARCHAR}, #{mnemonicCode,jdbcType=VARCHAR}, 
       #{pass,jdbcType=VARCHAR}, #{yl1,jdbcType=VARCHAR}, #{yl2,jdbcType=VARCHAR}, #{yl3,jdbcType=VARCHAR}, 
-      #{yl4,jdbcType=VARCHAR}, #{createTime,jdbcType=TIMESTAMP}, #{updateTime,jdbcType=TIMESTAMP}
+      #{yl4,jdbcType=VARCHAR}, now(), #{updateTime,jdbcType=TIMESTAMP}
       )
   </insert>
   <insert id="insertSelective" parameterType="com.xjh.examonline.domain.Teacher">
@@ -148,5 +148,24 @@
       create_time = #{createTime,jdbcType=TIMESTAMP},
       update_time = #{updateTime,jdbcType=TIMESTAMP}
     where id = #{id,jdbcType=BIGINT}
+  </update>
+
+
+  <select id="findByName" resultMap="TeacherResultMap">
+    SELECT
+        <include refid="Base_Column_List" />
+    FROM
+        t_teacher
+    WHERE
+        tname = #{tname} OR mnemonic_code = #{tname}
+  </select>
+
+  <update id="updatePwd" >
+    UPDATE
+      t_teacher
+    SET
+      pass = #{new_pass}
+    WHERE
+      id = #{id}
   </update>
 </mapper>
